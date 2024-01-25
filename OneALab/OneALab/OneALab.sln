@@ -1,0 +1,19 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneALab", "OneALab\OneALab.csproj", "{8B357891-86EA-44D7-BD42-359B7AB65E7C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyLibrary", "MyLibrary\MyLibrary.shproj", "{2DC3662F-E8E7-436A-9EE2-EC9EB1DF3CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B357891-86EA-44D7-BD42-359B7AB65E7C}.Debug|x86.ActiveCfg = Debug|x86
+		{8B357891-86EA-44D7-BD42-359B7AB65E7C}.Debug|x86.Build.0 = Debug|x86
+		{8B357891-86EA-44D7-BD42-359B7AB65E7C}.Release|x86.ActiveCfg = Release|x86
+		{8B357891-86EA-44D7-BD42-359B7AB65E7C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

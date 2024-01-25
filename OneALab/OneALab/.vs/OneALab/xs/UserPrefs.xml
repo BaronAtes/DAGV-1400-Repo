@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{8B357891-86EA-44D7-BD42-359B7AB65E7C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OneALab/Program.cs">
+    <Files>
+      <File FileName="OneALab/Program.cs" Line="9" Column="13" />
+      <File FileName="MyLibrary/MyClass.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OneALab" expanded="True">
+            <Node name="MyLibrary" expanded="True" />
+            <Node name="OneALab" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyLibrary FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OneALab PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,5 @@
+/home/skool/Documents/DAGV-1400-Repo/OneALab/OneALab/OneALab/bin/Debug/OneALab.exe
+/home/skool/Documents/DAGV-1400-Repo/OneALab/OneALab/OneALab/bin/Debug/OneALab.pdb
+/home/skool/Documents/DAGV-1400-Repo/OneALab/OneALab/OneALab/obj/x86/Debug/OneALab.csproj.CoreCompileInputs.cache
+/home/skool/Documents/DAGV-1400-Repo/OneALab/OneALab/OneALab/obj/x86/Debug/OneALab.exe
+/home/skool/Documents/DAGV-1400-Repo/OneALab/OneALab/OneALab/obj/x86/Debug/OneALab.pdb
