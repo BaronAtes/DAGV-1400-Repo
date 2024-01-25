@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{8B357891-86EA-44D7-BD42-359B7AB65E7C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="OneALab/Program.cs">
     <Files>
-      <File FileName="OneALab/Program.cs" Line="9" Column="13" />
+      <File FileName="OneALab/Program.cs" Line="14" Column="14" />
       <File FileName="MyLibrary/MyClass.cs" Line="1" Column="1" />
     </Files>
     <Pads>
