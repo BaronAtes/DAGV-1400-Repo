@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{F0003568-D294-48C0-AED9-16B898F43AC4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OneAChallenge/Program.cs">
+    <Files>
+      <File FileName="OneAChallenge/Program.cs" Line="49" Column="184" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OneAChallenge" expanded="True" selected="True">
+            <Node name="OneAChallenge" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.OneAChallenge PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

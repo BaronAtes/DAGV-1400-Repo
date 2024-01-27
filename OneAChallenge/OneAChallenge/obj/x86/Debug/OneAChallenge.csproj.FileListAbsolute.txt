@@ -1,0 +1,6 @@
+/home/skool/Documents/DAGV-1400-Repo/OneAChallenge/OneAChallenge/bin/Debug/OneAChallenge.exe
+/home/skool/Documents/DAGV-1400-Repo/OneAChallenge/OneAChallenge/bin/Debug/OneAChallenge.pdb
+/home/skool/Documents/DAGV-1400-Repo/OneAChallenge/OneAChallenge/obj/x86/Debug/OneAChallenge.csproj.CoreCompileInputs.cache
+/home/skool/Documents/DAGV-1400-Repo/OneAChallenge/OneAChallenge/obj/x86/Debug/OneAChallenge.exe
+/home/skool/Documents/DAGV-1400-Repo/OneAChallenge/OneAChallenge/obj/x86/Debug/OneAChallenge.pdb
+/home/skool/Documents/DAGV-1400-Repo/OneAChallenge/OneAChallenge/obj/x86/Debug/OneAChallenge.csproj.AssemblyReference.cache
