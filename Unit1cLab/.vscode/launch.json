@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: Unit1cLab",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/Unit1cLab.csproj",
+            "launchConfigurationId": "TargetFramework=;Unit1cLab"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/obj/Debug/net7.0/Unit1cLab.csproj.AssemblyReference.cache
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/obj/Debug/net7.0/Unit1cLab.GeneratedMSBuildEditorConfig.editorconfig
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/obj/Debug/net7.0/Unit1cLab.AssemblyInfoInputs.cache
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/obj/Debug/net7.0/Unit1cLab.AssemblyInfo.cs
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/obj/Debug/net7.0/Unit1cLab.csproj.CoreCompileInputs.cache
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/bin/Debug/net7.0/Unit1cLab
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/bin/Debug/net7.0/Unit1cLab.deps.json
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/bin/Debug/net7.0/Unit1cLab.runtimeconfig.json
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/bin/Debug/net7.0/Unit1cLab.dll
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/bin/Debug/net7.0/Unit1cLab.pdb
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/obj/Debug/net7.0/Unit1cLab.dll
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/obj/Debug/net7.0/refint/Unit1cLab.dll
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/obj/Debug/net7.0/Unit1cLab.pdb
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/obj/Debug/net7.0/Unit1cLab.genruntimeconfig.cache
+/home/skool/Documents/DAGV-1400-Repo/Unit1cLab/obj/Debug/net7.0/ref/Unit1cLab.dll
