@@ -1,0 +1,15 @@
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/bin/Debug/net7.0/Unit1cChallenge
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/bin/Debug/net7.0/Unit1cChallenge.deps.json
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/bin/Debug/net7.0/Unit1cChallenge.runtimeconfig.json
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/bin/Debug/net7.0/Unit1cChallenge.dll
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/bin/Debug/net7.0/Unit1cChallenge.pdb
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/obj/Debug/net7.0/Unit1cChallenge.csproj.AssemblyReference.cache
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/obj/Debug/net7.0/Unit1cChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/obj/Debug/net7.0/Unit1cChallenge.AssemblyInfoInputs.cache
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/obj/Debug/net7.0/Unit1cChallenge.AssemblyInfo.cs
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/obj/Debug/net7.0/Unit1cChallenge.csproj.CoreCompileInputs.cache
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/obj/Debug/net7.0/Unit1cChallenge.dll
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/obj/Debug/net7.0/refint/Unit1cChallenge.dll
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/obj/Debug/net7.0/Unit1cChallenge.pdb
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/obj/Debug/net7.0/Unit1cChallenge.genruntimeconfig.cache
+/home/skool/Documents/DAGV-1400-Repo/Unit1cChallenge/obj/Debug/net7.0/ref/Unit1cChallenge.dll
