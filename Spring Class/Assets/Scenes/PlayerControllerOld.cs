@@ -4,7 +4,7 @@ using System.Diagnostics;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerController))]
-public class PlayerController : MonoBehaviour
+public class PlayerControllerOld : MonoBehaviour
 {
     // Start is called before the first frame update
     public float moveSpeed = 5f;
