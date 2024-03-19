@@ -1,0 +1,2 @@
+If the player is not on the ground for long enough, the jump animation is delayed and the running animation still plays while the player is in mid-air
+The player can crash more than once if they collide with an object again after getting a game over
