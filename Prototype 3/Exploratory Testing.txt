@@ -1,2 +1,6 @@
 If the player is not on the ground for long enough, the jump animation is delayed and the running animation still plays while the player is in mid-air
 The player can crash more than once if they collide with an object again after getting a game over
+Challenge 3
+	Balloon feels really heavy. Maybe change the gravity modifier?
+	Player cannot control for a second or two after the game starts, but that could just be an issue with my computer
+	Background starts slightly too far right, revealing a sliver of the default Unity background
