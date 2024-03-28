@@ -8,6 +8,7 @@ TagManager:
   - Obstacle
   - Mailbox
   - Coin
+  - Filled Mailbox
   layers:
   - Default
   - TransparentFX
