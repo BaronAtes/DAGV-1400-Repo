@@ -8,7 +8,7 @@ public class MoleMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        moleHeight = GetComponent<SphereCollider>().radius * 2;
+        moleHeight = GetComponent<BoxCollider>().size.y;
         StartCoroutine(Behaviour());
     }
 
