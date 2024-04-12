@@ -9,6 +9,7 @@ TagManager:
   - Mailbox
   - Coin
   - Filled Mailbox
+  - Powerup
   layers:
   - Default
   - TransparentFX

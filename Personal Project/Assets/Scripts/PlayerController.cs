@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     public int dmgValue;
     private bool gameOver = false;
     public float deathThrow;
+    public bool hasPowerUp = false;
+    public GameObject powerUpIndicator;
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
@@ -58,8 +60,15 @@ public class PlayerController : MonoBehaviour
         // Makes the player lose health if they collide with an obstacle
         else if (other.gameObject.CompareTag("Obstacle"))
         {
-            health = health - dmgValue;
-            Debug.Log("Current health: " + health);
+            if (hasPowerUp)
+            {
+                Destroy(other.gameObject);
+            }
+            else
+            {
+                health = health - dmgValue;
+                Debug.Log("Current health: " + health);
+            }
         }
     }
 
@@ -79,5 +88,19 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Mailboxes delivered to: " + mailBoxes);
             other.tag = "Filled Mailbox";
         }
+        else if (other.CompareTag("Powerup"))
+        {
+            hasPowerUp = true;
+            Destroy(other.gameObject);
+            StartCoroutine(PowerupCountdownRoutine ());
+            powerUpIndicator.gameObject.SetActive(true);
+        }
+    }
+    IEnumerator PowerupCountdownRoutine ()
+    {
+        yield return new WaitForSeconds(7);
+        hasPowerUp = false;
+        powerUpIndicator.gameObject.SetActive(false);
+        Debug.Log("Powerup time had ended.");
     }
 }

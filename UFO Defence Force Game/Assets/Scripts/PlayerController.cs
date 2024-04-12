@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float xRange = 30;
     public Transform blaster;
     public GameObject laserBolt;
+    public int oreCount = 0;
     // Start is called before the first frame update
 
     // Update is called once per frame
@@ -39,6 +40,15 @@ public class PlayerController : MonoBehaviour
     // Delete any object with a trigger that hits the player
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
+        if (other.CompareTag("Ore"))
+        {
+            oreCount++;
+            Destroy(other.gameObject);
+            Debug.Log("Ore collected: " + oreCount);
+        }
+        else
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
