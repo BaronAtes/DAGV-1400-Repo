@@ -541,7 +541,7 @@ MonoBehaviour:
   - {fileID: 383817667526165207, guid: c0d46ba6b725c0713966c4fc473f22ba, type: 3}
   - {fileID: 2324249784240977409, guid: 6348726dc4d9abcfca06de141832c289, type: 3}
   - {fileID: 4409335053332280953, guid: 7245d9a4b92ba5780bc037c48721c570, type: 3}
-  - {fileID: 1843715063475243566, guid: 7c630f26a4752db60bcd5edbaa72480a, type: 3}
+  ore: {fileID: 1843715063475243566, guid: 7c630f26a4752db60bcd5edbaa72480a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
