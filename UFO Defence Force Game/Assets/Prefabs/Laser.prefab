@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 6029656839231438098}
   - component: {fileID: 8047013653980367205}
   - component: {fileID: -7055374872071806493}
+  - component: {fileID: 94302250812650086}
   m_Layer: 0
   m_Name: Laser
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,7 +61,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   topBounds: 30
-  lowerBounds: -10
+  lowerBounds: -30
+--- !u!54 &94302250812650086
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283365826027252386}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1531714075302348326
 GameObject:
   m_ObjectHideFlags: 0
@@ -75,7 +103,7 @@ GameObject:
   - component: {fileID: 6282709925868867669}
   m_Layer: 0
   m_Name: Laser Bolt
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,6 +207,10 @@ PrefabInstance:
     - target: {fileID: 2236590363330866780, guid: 95c0fa87a2c776d63b3f9901ac16a78c, type: 3}
       propertyPath: m_Name
       value: Laser Bolt
+      objectReference: {fileID: 0}
+    - target: {fileID: 2236590363330866780, guid: 95c0fa87a2c776d63b3f9901ac16a78c, type: 3}
+      propertyPath: m_TagString
+      value: Laser
       objectReference: {fileID: 0}
     - target: {fileID: 2759302975187537542, guid: 95c0fa87a2c776d63b3f9901ac16a78c, type: 3}
       propertyPath: m_LocalPosition.x
