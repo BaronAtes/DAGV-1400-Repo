@@ -11,8 +11,15 @@ public class PlayerController : MonoBehaviour
     public Transform blaster;
     public GameObject laserBolt;
     public int oreCount = 0;
+    public GameManager gameManager;
+    public ScoreManager scoreManager; // Stores reference to score manager
+    public int scoreToGive;
     // Start is called before the first frame update
-
+    void Start()
+    {
+        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>(); // Find Game Manager game object and reference GameManager script component
+        scoreManager = GameObject.Find("Score Manager").GetComponent<ScoreManager>(); // Find ScoreManager game object and reference ScoreManager script component
+    }
     // Update is called once per frame
     void Update()
     {
@@ -30,7 +37,7 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
         // If space bar is pressed, fire laser bolt
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && gameManager.isGameOver == false)
         {
             // Create laserBolt at the blaster transform position while maintaining the object's rotation.
             Instantiate(laserBolt, blaster.transform.position, laserBolt.transform.rotation);
@@ -42,6 +49,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Ore"))
         {
+            scoreManager.IncreaseScore(scoreToGive);
             oreCount++;
             Destroy(other.gameObject);
             Debug.Log("Ore collected: " + oreCount);
