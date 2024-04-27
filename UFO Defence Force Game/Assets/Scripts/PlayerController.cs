@@ -14,11 +14,15 @@ public class PlayerController : MonoBehaviour
     public GameManager gameManager;
     public ScoreManager scoreManager; // Stores reference to score manager
     public int scoreToGive;
+    public AudioClip shootSound;
+    public AudioClip collectSound;
+    private AudioSource playerAudio;
     // Start is called before the first frame update
     void Start()
     {
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>(); // Find Game Manager game object and reference GameManager script component
         scoreManager = GameObject.Find("Score Manager").GetComponent<ScoreManager>(); // Find ScoreManager game object and reference ScoreManager script component
+        playerAudio = GetComponent<AudioSource>();
     }
     // Update is called once per frame
     void Update()
@@ -39,6 +43,7 @@ public class PlayerController : MonoBehaviour
         // If space bar is pressed, fire laser bolt
         if (Input.GetKeyDown(KeyCode.Space) && gameManager.isGameOver == false)
         {
+            playerAudio.PlayOneShot(shootSound, 1.0f);
             // Create laserBolt at the blaster transform position while maintaining the object's rotation.
             Instantiate(laserBolt, blaster.transform.position, laserBolt.transform.rotation);
         }
@@ -49,6 +54,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Ore"))
         {
+            playerAudio.PlayOneShot(collectSound, 1.0f);
             scoreManager.IncreaseScore(scoreToGive);
             oreCount++;
             Destroy(other.gameObject);

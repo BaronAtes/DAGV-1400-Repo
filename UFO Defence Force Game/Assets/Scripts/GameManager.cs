@@ -5,7 +5,10 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public bool isGameOver;
+    private bool hasLost = false;
     private GameObject gameOverText;
+    public AudioClip loseSound;
+    private AudioSource managerAudio;
     // Start is called before the first frame update
     void Awake()
     {
@@ -15,16 +18,18 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         gameOverText = GameObject.Find("Game Over Text");
+        managerAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isGameOver)
+        if (isGameOver && hasLost == false)
         {
             EndGame();
+            hasLost = true;
         }
-        else
+        if (isGameOver == false)
         {
             gameOverText.gameObject.SetActive(false); // Keep game over UI hidden
         }
@@ -32,6 +37,7 @@ public class GameManager : MonoBehaviour
 
     public void EndGame()
     {
+        managerAudio.PlayOneShot(loseSound, 1.0f);
         gameOverText.gameObject.SetActive(true); // Make game over text appear
         Debug.Log("Game Over!");
         Time.timeScale = 0; // Stop time
