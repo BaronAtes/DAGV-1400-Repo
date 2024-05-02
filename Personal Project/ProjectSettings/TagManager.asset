@@ -10,6 +10,8 @@ TagManager:
   - Coin
   - Filled Mailbox
   - Powerup
+  - Ring
+  - Building
   layers:
   - Default
   - TransparentFX

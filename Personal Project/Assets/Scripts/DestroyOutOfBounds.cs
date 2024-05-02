@@ -31,4 +31,12 @@ public class DestroyOutOfBounds : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    private void OnCollisionEnter(Collision other)
+    {
+        // Sets the player as being on the ground if they touch the ground object
+        if (other.gameObject.CompareTag("Building"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
